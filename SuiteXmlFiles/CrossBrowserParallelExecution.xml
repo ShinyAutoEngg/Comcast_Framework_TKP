@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+	
+  <test name="TestRunnerEdge">
+	  <parameter name="BROWSER" value="edge"></parameter>
+    <classes>
+      <class name="practiceCrossBrowserTesting.CreateOrganizationCBTDemo"/>
+    </classes>
+  </test> 
+  
+  <test name="TestRunnerChrome">
+	  <parameter name="BROWSER" value="firefox"></parameter>
+    <classes>
+      <class name="practiceCrossBrowserTesting.CreateContactCBTDemo"/>
+    </classes>
+  </test> 
+  
+  <!-- Test -->
+</suite> <!-- Suite -->

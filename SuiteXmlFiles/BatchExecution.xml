@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AllModuleBackUpWithoutBaseClass.CreateOrganizationWithPhoneNumber"/>
+      <class name="AllModuleBackUpWithoutBaseClass.DeleteOrgTest"/>
+      <class name="AllModuleBackUpWithoutBaseClass.CreateContactWithOrganization"/>
+      <class name="AllModuleBackUpWithoutBaseClass.CreateContactTest"/>
+      <class name="AllModuleBackUpWithoutBaseClass.DeleteProductTest"/>
+      <class name="AllModuleBackUpWithoutBaseClass.CreateOrganizationTest"/>
+      <class name="AllModuleBackUpWithoutBaseClass.CreateOrganizationWithIndustriesTest"/>
+      <class name="AllModuleBackUpWithoutBaseClass.CreateCampaignTest"/>
+      <class name="AllModuleBackUpWithoutBaseClass.CreateContactWithSupportDateTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
